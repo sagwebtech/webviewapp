@@ -1,16 +1,28 @@
-# sagwebtech
+#  WebView App
 
-A new Flutter project.
+A lightweight mobile application built with **Flutter** that loads and displays a website directly inside a WebView.  
+This app provides a fast, app-like browsing experience for your website — perfect for businesses, blogs, and startups that want a quick mobile solution.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Loads your website using a built-in WebView
+- Supports Forward, Back and Refresh Navigation
+- Responsive and adaptive layout
+- Handles HTTPS and custom URLs
+- Custom splash screen and app icon
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Framework:** Flutter   
+- **Language:** Dart  
+- **Platform:** Android / iOS
+
+### Clone this repository
+git clone https://github.com/sagwebtech/webviewapp.git
+cd webviewapp
+
+### App Icon Update
+If you make any changes to the flutter laucher icon in pubspec.yaml
+run flutter pub run flutter_launcher_icons
